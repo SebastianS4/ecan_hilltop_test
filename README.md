@@ -24,3 +24,14 @@ Example use:
     #COM = ecan.get_COM(hts, site, param)
 
 NOTE: This script requires an environment with numpy 1.X and you will need to create a new environment for this
+
+# Conda installation 4
+Either:
+
+    conda create --name <env> --file requirements.txt
+
+or:
+
+    conda install numpy=1.26
+
+NOTE: installing numpy 1.26 may break existing environments due to requirements of other packages
